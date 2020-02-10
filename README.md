@@ -25,11 +25,16 @@ This sprint challenge is divided up into three parts:  Hash tables coding, block
 
 Explain in detail the workings of a dynamic array:
 * What is the runtime complexity to access an array, add or remove from the front, and add or remove from the back?
+    - Accessing an array, adding or removing from the back or front is O(1), because you know the index. If you have to search for a value, then it becomes O(n)
 * What is the worse case scenario if you try to extend the storage size of a dynamic array?
+    - O(n)
 
 Explain how a blockchain is structured. What are the blocks, what is the chain? How is the data organized?
+    - A block is a list of transactions recorded into a ledger over a given period. 
+    - A chain is a hash that links one block to another, “chaining” them together. The hash in blockchain is created from the data that was in the previous block. The hash is a fingerprint of this data and locks blocks in order and time.
  
 Explain how proof of work functions. How does it operate. How does this protect the chain from attack. What kind of attack is possible?
+    - A proof of work is a deliberate way of slowing down the process in order to prevent hacking. It uses an absurd amount of power that makes it almost impossible to cheat.
 
 ## Project Set Up
 
